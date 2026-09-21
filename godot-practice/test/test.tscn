@@ -1,0 +1,60 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1jiog1p6bq2v"]
+
+[ext_resource type="Texture2D" uid="uid://b2owvbsvgjfu" path="res://icon.svg" id="1_syuel"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_8a8pi"]
+
+[node name="Test" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(309, 429)
+scale = Vector2(3.89382, 0.370956)
+texture = ExtResource("1_syuel")
+offset = Vector2(50, 50)
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(782, 403.311)
+scale = Vector2(1.77344, 0.236508)
+texture = ExtResource("1_syuel")
+offset = Vector2(50, 50)
+
+[node name="Sprite2D5" type="Sprite2D" parent="."]
+position = Vector2(49.0001, 401)
+scale = Vector2(1.77344, 0.236508)
+texture = ExtResource("1_syuel")
+offset = Vector2(50, 50)
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+modulate = Color(0.759374, 0.531313, 0.0156619, 1)
+material = SubResource("CanvasItemMaterial_8a8pi")
+position = Vector2(208.369, 238.193)
+scale = Vector2(1.59776, 0.370956)
+texture = ExtResource("1_syuel")
+offset = Vector2(50, 50)
+
+[node name="Sprite2D2" type="Sprite2D" parent="Sprite2D2"]
+modulate = Color(0.350839, 0.0775244, 0.15844, 1)
+material = SubResource("CanvasItemMaterial_8a8pi")
+position = Vector2(-77.8393, -218.876)
+rotation = -0.792758
+scale = Vector2(1.59776, 0.370956)
+texture = ExtResource("1_syuel")
+offset = Vector2(50, 50)
+
+[node name="Sprite2D3" type="Sprite2D" parent="Sprite2D2"]
+modulate = Color(0.350839, 0.0775244, 0.15844, 1)
+material = SubResource("CanvasItemMaterial_8a8pi")
+position = Vector2(318.966, -278.182)
+rotation = 0.5492
+scale = Vector2(1.59776, 0.370956)
+texture = ExtResource("1_syuel")
+offset = Vector2(50, 50)
+flip_v = true
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+modulate = Color(0.759374, 0.531313, 0.0156619, 1)
+material = SubResource("CanvasItemMaterial_8a8pi")
+position = Vector2(645.369, 240.193)
+scale = Vector2(1.59776, 0.370956)
+texture = ExtResource("1_syuel")
+offset = Vector2(50, 50)
