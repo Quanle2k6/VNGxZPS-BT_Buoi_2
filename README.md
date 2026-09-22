@@ -40,5 +40,6 @@ Tài liệu ghi lại kết quả tìm hiểu và nghiên cứu về node **Spot
 | **Shadow Enabled** | `bool` | Bật/Tắt chế độ tính toán bóng đổ thời gian thực. |
 
 ## 5. Demo / Implementation
-
-*(Phần này sẽ được cập nhật sau)*
+SpotLight3D đã được cài đặt trong project `project.godot`, để kiểm tra sự khác biệt khi sử dụng SpotLight3D người dùng vui lòng thực hiện như sau:
+- Bấm `F5` để chạy dự án
+- Để thử bật tắt spotlight, vui lòng bấm `SPACE` để thử xem qua kết quả.
