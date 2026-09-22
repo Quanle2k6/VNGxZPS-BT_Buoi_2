@@ -43,3 +43,5 @@ Tài liệu ghi lại kết quả tìm hiểu và nghiên cứu về node **Spot
 SpotLight3D đã được cài đặt trong project `project.godot`, để kiểm tra sự khác biệt khi sử dụng SpotLight3D người dùng vui lòng thực hiện như sau:
 - Bấm `F5` để chạy dự án
 - Để thử bật tắt spotlight, vui lòng bấm `SPACE` để thử xem qua kết quả.
+- `←` hoặc `→` để điểu chỉnh hướng chiếu đèn trái phải.
+- `↑` hoặc `↓` để chỉnh Light Energy của Spotlight.
