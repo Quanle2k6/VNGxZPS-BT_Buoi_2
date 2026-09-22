@@ -16,7 +16,7 @@ Tài liệu ghi lại kết quả tìm hiểu và nghiên cứu về node **Spot
 
 * **Chiếu hình ảnh / hoa văn (Projector):** Cho phép gán một `Texture2D` để chiếu hình ảnh/họa tiết lên bề mặt vật thể (ví dụ: hiệu ứng ống kính đèn pin, hoa văn cửa kính, hiệu ứng mặt lưới).
 
-## 3. Ứng dụng thực tế trong Game Design
+## 3. Ứng dụng thực tế trong Game
 
 1. **Đèn pin (Flashlight) của nhân vật:** Gắn trực tiếp phía trước `Camera3D` (góc nhìn thứ nhất) hoặc theo hướng nhìn của nhân vật khi di chuyển trong môi trường tối.
 
